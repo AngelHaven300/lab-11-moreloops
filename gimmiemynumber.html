@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var userinput = parseInt(prompt("gimmie a number that is greater than 100..."));
+
+        while (userinput <= 100)  {
+            console.log(userinput + "is less than 100, try again...");
+            userinput = parseInt(prompt("Nope, not what i asked for... gimmie a number that is greater than 100..."));
+        }
+
+        // imagine that the condition has been satisfied... exited the loop...
+        console.log(userinput + " is greater than 100! GOOD JOB!!!");
+
+    </script>  
+</body>
+</html>
